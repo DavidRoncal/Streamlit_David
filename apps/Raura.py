@@ -5,6 +5,9 @@ import ee
 
 def app():
     st.title("Imágen Satelital Raura")
+    st.image(
+    "https://raw.githubusercontent.com/DavidRoncal/Imagenes/main/insideo.png",
+    width=250,)
 
     keys = list(geemap.basemaps.keys())[1:]
 
