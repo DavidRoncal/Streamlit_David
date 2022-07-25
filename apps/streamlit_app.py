@@ -4,11 +4,8 @@ import cv2
 
 
 def app():
-    # set page config
-    st.set_page_config(
-        page_title="James Webb Space Telescope vs Hubble Telescope Images",
-        layout="centered",
-    )
+    
+    st.title("James Webb Space Telescope vs Hubble Telescope Images")
 
     st.image(
         "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/telescope_1f52d.png",
