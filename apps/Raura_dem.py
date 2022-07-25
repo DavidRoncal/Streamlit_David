@@ -5,6 +5,9 @@ import ee
 
 def app():
     st.title("DEM Raura")
+    st.image(
+    "https://raw.githubusercontent.com/DavidRoncal/Imagenes/main/insideo.png",
+    width=250,)
 
     dem = ee.Image('USGS/SRTMGL1_003')
     table = ee.FeatureCollection("users/davidroncal123/AEA_RAURA")
